@@ -1,0 +1,75 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  text-align: center;
+}
+/* ​ */
+header { height: 50px;
+  background-color: #2B2B2B;
+}
+header ul {
+  list-style-type: none;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+header ul a {
+  color: white;
+}
+header li {
+  display: inline-block;
+  padding: 10px;
+}
+header li.right {
+  float: right;
+}
+header li.left {
+  float: left;
+}
+header ul:after {
+}
+/* Implémentation de la partie d'en-tête */
+.main-header {
+  padding: 120px 0px 120px 0px;
+  width: 100%;
+  background-size: cover;
+  background-image: url("../images/header.jpg");
+}
+.main-header img {
+/* Implémentation de l'image principale (image des caractères blancs "Achieve") */
+background-image: url(images/achieve.png);
+width: 13%;
+}
+.about {
+/* About Implémentation de la partie Achieve */
+font-size: 0.8rem;
+}
+
+.about h1 {
+  font-size: 1.5rem;
+}
+/* ​ */
+.function {
+  background-color: #d3d3d3;
+}
+.function-images {
+  display: inline-flex;
+  justify-content: center;
+  padding: 10px;
+}
+.function-image {
+  float: none;
+  padding: 30px 30px 30px 20px;
+}
+/* Implémentation de la partie Function */
+footer {
+/* Implémentation du pied de page */
+height: 90px;
+background-color: #283a4b;
+display: table;
+position: absolute;
+font-size: 0.8rem;
+text-align: center;
+width: 100%;
+}
